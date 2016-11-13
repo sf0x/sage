@@ -33,10 +33,14 @@ def my_sph(h, g, op):
 
 	
 	#x=col3[0]*G[0]*y[0]+col3[1]*G[1]*y[1]+col3[2]*G[2]*y[2]
-	
+	#for i in xrange(0,len(M)):					#Multiplizier-Problem
+	#	x+=col3[i]*G[i]*y[i]
 	#return x
 
 
 
 #Test Werte: g=23, op=11251, h=9689
 #Später: Alle Schleifen in eine schreiben, da gleiche durchlaufwerte
+
+	
+	
