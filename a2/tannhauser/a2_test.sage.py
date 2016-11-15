@@ -70,6 +70,7 @@ op='*'
 g=mod(g,p)**m 	# g == 27
 g=g.lift()
 #g=int(g)
+#print("g="+str(g))
 #print(type(g))
 #print(type(p))
 #print(type(m))

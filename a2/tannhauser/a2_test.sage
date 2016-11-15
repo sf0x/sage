@@ -46,7 +46,7 @@ def my_eea(g, p, op):
 		print("r1="+str(r1[i])),
 		print("q="+str(q[i])),
 		print("t="+str(t[i])),
-		print(" s="+str(s[i]))
+		print("s="+str(s[i]))
 		"""
 	if s[0]<0:
 		s[0]=p+s[0]

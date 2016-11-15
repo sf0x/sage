@@ -55,6 +55,7 @@ def my_eea(g, p, op):
 		print("zeroerror") # zero error, something went wrong
 	return s[0] # return the inverse element
 
+# g^-m mod p in (Z,op)
 def my_inverse(g, m, p, op):
 	# testnumbers from 2.3 2)
 	#g=5
