@@ -23,9 +23,9 @@ my_bsgs(a, g, op, pow, G, inv_g)
 
 	baby=[]
 
-	for i in range(0,B):
+	for i in range(B):
 		baby.append(1)
-		for j in range(0, i):
+		for j in range(i):
 			baby[i]=op(baby[i],g)
 			
 	sort(baby)
@@ -42,6 +42,5 @@ my_bsgs(a, g, op, pow, G, inv_g)
 
 	h=i_pos+m*j_pos
 
-
-op=lambda x,y: x*y
+op=lambda x,y: x+y
 pow=lambda x,a: x**a
